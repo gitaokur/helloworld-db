@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/a")
+@app.route("/db")
 def hello():
     return "Hello World from alperenokur.com/db"
 
